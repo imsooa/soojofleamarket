@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ChosunGu';
+    line-height: 1.4;
+  }
+
+html {
+    font-size: 14pt;
+    background-color: black;
+}
+
+.cont {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main {
+    height: 100vh;
+    float: right;
+    padding: 20px;
+    background-color: white;
+    word-break: keep-all;
+}
+
+.side {
+    width: 2vw;
+    height: 100vh;
+    background-color: lightgray;
+    writing-mode: vertical-rl;
+    padding: 20px 5px;
+    float: left;
+    position: absolute;
+}
+
+
+
+
+.괄호 {
+    color: gray;
+    background-color: white;
+}
+
+.cut {
+    margin: 2%;
+    float: left;
+    width: 29%;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+.noto {
+    font-family: "Noto Sans KR", sans-serif;
+}
